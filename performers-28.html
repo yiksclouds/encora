@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="ojpRWMryI0uJOqOA7GORhH42zWvb0kZaHlaQQtdR">
+
+    <title>
+                Performers
+ - encora
+            </title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/fonts/brandon-grotesque.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/sk-modernist.css">
+
+    <!-- Styles -->
+    <link id="lightCssId" href="https://encora.one/css/light.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" />
+
+    <style type="text/css">
+            </style>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {
+            csrfToken: "ojpRWMryI0uJOqOA7GORhH42zWvb0kZaHlaQQtdR",
+            routeName: "performers.index",
+        };
+    </script>
+
+    <script src="https://encora.one/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function() {
+                $(".dropdown-autocomplete-menu").select2();
+            }
+        );
+    </script>
+
+    </head>
+
+<body>
+    <div id="app">
+
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
+
+<div class="container fake-container d-flex flex-nowrap text-nowrap d-md-none">  
+
+
+
+
+
+
+
+<form method="GET" action="https://encora.one/search" class="form-inline flex-grow-1">
+    <label class="sr-only" for="search">Search</label>
+    <input class="form-control mr-1 w-100" id="search-mobile" type="search" placeholder="Search encora" aria-label="Search" name="q" value="">
+    
+</form>
+
+
+<button class="navbar-toggler px-0" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+</div>  
+
+<div class="collapse navbar-collapse fake-container" id="navbarSupportedContent">
+    <a class="navbar-brand" href="https://encora.one">
+        encora
+    </a>
+
+    <ul class="navbar-nav mr-auto">
+
+    
+    <form method="GET" action="https://encora.one/search" class="form-inline d-none d-md-flex">
+        
+        
+        <label class="sr-only" for="search">Search</label>
+        <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search" name="q" value="">
+    </form>
+
+    </ul>  
+
+    <ul class="navbar-nav">
+
+    
+    
+    <li class="nav-item dropdown">
+        <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button" aria-expanded="false" title="Browse...">
+            <span><i class="fas fa-book-open"></i></span>
+            <span class="d-md-none pl-1">Browse... <i class="fas fa-caret-down"></i></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right" role="menu">
+            <a href="https://encora.one/shows" class="dropdown-item">
+                Shows
+            </a>
+
+            <a href="https://encora.one/performers" class="dropdown-item">
+                Performers
+            </a>
+
+                    </div>  
+    </li>
+
+    
+        <li class="nav-item">
+        <a href="https://encora.one/login" class="nav-link">
+            Register or Login
+        </a>
+    </li>
+    
+    </ul>  
+
+</div>  
+
+</nav>
+
+        
+
+<div class="
+container-fluid
+">
+  <div class="card">
+    <div class="card-header">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 style="display:inline-block;">
+                Performers
+            </h2>
+        </div>
+            </div>
+</div>
+
+<div class="card-body p-2">
+<form method="GET" action="https://encora.one/performers" accept-charset="UTF-8">
+  <div class="form-row align-items-center">
+    <div class="col">
+      
+      <label class="sr-only" for="search">Search</label>
+      <input type="text" class="form-control" id="search_performers.index" placeholder="Search" name="q" value="" minlength=1 style="width:100%;">
+    </div>
+    <button type="submit" class="btn btn-primary d-none d-sm-block">Search</button>
+  </div>
+</form>
+</div>  
+ 
+
+<div class="card-body">
+    <div class="flex-container row alphabet">
+	<div>
+		<a href="https://encora.one/performers">
+			All
+		</a>
+	</div>
+
+	    <div>
+    		<a href="https://encora.one/performers?search=A">
+			A
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=B">
+			B
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=C">
+			C
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=D">
+			D
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=E">
+			E
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=F">
+			F
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=G">
+			G
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=H">
+			H
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=I">
+			I
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=J">
+			J
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=K">
+			K
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=L">
+			L
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=M">
+			M
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=N">
+			N
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=O">
+			O
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=P">
+			P
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Q">
+			Q
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=R">
+			R
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=S">
+			S
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=T">
+			T
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=U">
+			U
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=V">
+			V
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=W">
+			W
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=X">
+			X
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Y">
+			Y
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Z">
+			Z
+		</a>
+	</div>
+	</div>
+    <hr>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td class="text-center"># of Performances</td>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-godley">
+                        Adam Godley
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    19
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-grabau">
+                        Adam Grabau
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-ethan-grabau">
+                        Adam Ethan Grabau
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-grupper">
+                        Adam Grupper
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    73
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-halpin">
+                        Adam Halpin
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    38
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-heller">
+                        Adam Heller
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    23
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hepkin">
+                        Adam Hepkin
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hill">
+                        Adam Hill
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hollick">
+                        Adam Hollick
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hose">
+                        Adam Hose
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-howden">
+                        Adam Howden
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hunter">
+                        Adam Hunter
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-hyndman">
+                        Adam Hyndman
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-illsley">
+                        Adam Illsley
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    7
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-jackson-smith">
+                        Adam Jackson-Smith
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-jacobs">
+                        Adam Jacobs
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    106
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-james">
+                        Adam James
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-jepsen">
+                        Adam Jepsen
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    17
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-jones">
+                        Adam Jones
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kantor">
+                        Adam Kantor
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    99
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kaokept">
+                        Adam Kaokept
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kaplan">
+                        Adam Kaplan
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    54
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-karim">
+                        Adam Karim
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kemmerer">
+                        Adam Kemmerer
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    9
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kotz">
+                        Adam Kotz
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-kozlowski">
+                        Adam Kozlowski
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lake">
+                        Adam Lake
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    34
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lambert">
+                        Adam Lambert
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    13
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-langdon">
+                        Adam Langdon
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lefevre">
+                        Adam LeFevre
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    11
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-levinskas">
+                        Adam Levinskas
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-j-levy">
+                        Adam J Levy
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    14
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-robert-lewis">
+                        Adam Robert Lewis
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    6
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-linstead">
+                        Adam Linstead
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    83
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lord">
+                        Adam Lord
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lyon">
+                        Adam Lyon
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-lyons">
+                        Adam Lyons
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-alexi-malle">
+                        Adam Alexi Malle
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-margilewski">
+                        Adam Margilewski
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    22
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-marks">
+                        Adam Marks
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-di-martino">
+                        Adam Di Martino
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-mcnamara">
+                        Adam McNamara
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-medina">
+                        Adam Medina
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-mirsky">
+                        Adam Mirsky
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-mitchell">
+                        Adam Mitchell
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-monley">
+                        Adam Monley
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    68
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-murphy">
+                        Adam Murphy
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    10
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-nazarto">
+                        Adam Nazarto
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-noviello">
+                        Adam Noviello
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    14
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-o-shea">
+                        Adam O Shea
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-obryne">
+                        Adam O’Bryne
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-palley">
+                        Adam Palley
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pascal">
+                        Adam Pascal
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    108
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pasztor">
+                        Ádám Pásztor
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pearce">
+                        Adam Pearce
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    106
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-perry">
+                        Adam Perry
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pettigrew">
+                        Adam Pettigrew
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    33
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-philpott">
+                        Adam Philpott
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-piispanen">
+                        Adam Piispanen
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pleeth">
+                        Adam Pleeth
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-du-plesis">
+                        Adam Du Plesis
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    11
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-pownall">
+                        Adam Pownall
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-price">
+                        Adam Price
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    32
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-punsalang">
+                        Adam Punsalang
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-ray">
+                        Adam Ray
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-rhys-charles">
+                        Adam Rhys-Charles
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    13
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-rhys-davies">
+                        Adam Rhys-Davies
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-richardson">
+                        Adam Richardson
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-rickitt">
+                        Adam Rickitt
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-riegler">
+                        Adam Riegler
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    25
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-roberts">
+                        Adam Roberts
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-rothenberg">
+                        Adam Rothenberg
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-sadwing">
+                        Adam Sadwing
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    14
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-salter">
+                        Adam Salter
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    27
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-sanford">
+                        Adam Sanford
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    6
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-sarp">
+                        Adam Sarp
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-scotland">
+                        Adam Scotland
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-scown">
+                        Adam Scown
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-search">
+                        Adam Search
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-searles">
+                        Adam Searles
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-shalzi">
+                        Adam Shalzi
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-shapiro">
+                        Adam Shapiro
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    15
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-sheffield">
+                        Adam Sheffield
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    14
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-shonkwiler">
+                        Adam Shonkwiler
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-soniak">
+                        Adam Soniak
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-sopp">
+                        Adam Sopp
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-stafford">
+                        Adam Stafford
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    8
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-standley">
+                        Adam Standley
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    8
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-stevens">
+                        Adam Stevens
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    8
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-stevenson">
+                        Adam Stevenson
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-strong">
+                        Adam Strong
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    19
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-taylor">
+                        Adam Taylor
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    12
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-tedder">
+                        Adam Tedder
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-trese">
+                        Adam Trese
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-vanek">
+                        Adam Vanek
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-vaughan">
+                        Adam Vaughan
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    22
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-venus">
+                        Adam Venus
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    51
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-vesperman">
+                        Adam Vesperman
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-wade">
+                        Adam Wade
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/adam-watkiss">
+                        Adam Watkiss
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                </tbody>
+    </table>
+
+            <ul class="pagination">
+        
+                    <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=2" rel="prev">&laquo;</a></li>
+        
+        
+                    
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=1">1</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=2">2</a></li>
+                                                                                <li class="page-item active"><span class="page-link">3</span></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=4">4</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=5">5</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=6">6</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=7">7</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=8">8</a></li>
+                                                                    
+                            <li class="page-item disabled"><span class="page-link">...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=352">352</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=353">353</a></li>
+                                                        
+        
+                    <li class="page-item"><a class="page-link" href="https://encora.one/performers?page=4" rel="next">&raquo;</a></li>
+            </ul>
+
+    
+    <hr>
+    <div class="flex-container row alphabet">
+	<div>
+		<a href="https://encora.one/performers">
+			All
+		</a>
+	</div>
+
+	    <div>
+    		<a href="https://encora.one/performers?search=A">
+			A
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=B">
+			B
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=C">
+			C
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=D">
+			D
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=E">
+			E
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=F">
+			F
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=G">
+			G
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=H">
+			H
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=I">
+			I
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=J">
+			J
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=K">
+			K
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=L">
+			L
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=M">
+			M
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=N">
+			N
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=O">
+			O
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=P">
+			P
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Q">
+			Q
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=R">
+			R
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=S">
+			S
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=T">
+			T
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=U">
+			U
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=V">
+			V
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=W">
+			W
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=X">
+			X
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Y">
+			Y
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Z">
+			Z
+		</a>
+	</div>
+	</div>
+</div>  <!-- .card-body -->
+  </div>  
+</div>  
+
+
+    </div>
+
+    <div id="footer" class="row mt-3">
+        <div class="container">
+            <div class="col align-self-center">
+                <h6 class="text-center">
+                    <i class="far fa-copyright"></i>
+                    2020 Encora and of the respective rightsholders
+                </h6>
+                <div class="text-center">
+                    <a href="https://encora.one/contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="removeEntry" tabindex="-1" role="dialog" aria-labelledby="removeEntryLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="removeEntryLabel">Are you sure you want to do that?</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>You're about to delete a record. This action is irreversible. Are you <em>sure</em> you want to
+                        do that?</p>
+                </div>
+                <div class="modal-footer">
+                    <form method="POST" id="confirm-delete-entry">
+                        <input type="hidden" name="_token" value="ojpRWMryI0uJOqOA7GORhH42zWvb0kZaHlaQQtdR">
+                        <input type="hidden" name="_method" value="DELETE">                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha256-Daf8GuI2eLKHJlOWLRR/zRy9Clqcj4TUSumbxYH9kGI=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#removeEntry').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var link = button.data('link'); // Extract info from data-* attributes
+            var modal = $(this);
+            modal.find('#confirm-delete-entry').attr('action', link);
+        });
+
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $(this).removeData('bs.modal');
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"][title]').tooltip()
+        })
+
+        var textAreas = document.getElementsByTagName('textarea');
+        Array.prototype.forEach.call(textAreas, function(elem) {
+            elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+        });
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-106387485-1', 'auto');
+        ga('send', 'pageview');
+        
+    </script>
+
+    
+    
+</body>
+
+</html>

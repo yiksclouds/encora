@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="SMHeDyV4yjFVFN4oHUsYTcaWKXP46HVYxBDx0mX0">
+
+    <title>
+                Performers
+ - encora
+            </title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/fonts/brandon-grotesque.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/sk-modernist.css">
+
+    <!-- Styles -->
+    <link id="lightCssId" href="https://encora.one/css/light.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" />
+
+    <style type="text/css">
+            </style>
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {
+            csrfToken: "SMHeDyV4yjFVFN4oHUsYTcaWKXP46HVYxBDx0mX0",
+            routeName: "performers.index",
+        };
+    </script>
+
+    <script src="https://encora.one/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function() {
+                $(".dropdown-autocomplete-menu").select2();
+            }
+        );
+    </script>
+
+    </head>
+
+<body>
+    <div id="app">
+
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
+
+<div class="container fake-container d-flex flex-nowrap text-nowrap d-md-none">  
+
+
+
+
+
+
+
+<form method="GET" action="https://encora.one/search" class="form-inline flex-grow-1">
+    <label class="sr-only" for="search">Search</label>
+    <input class="form-control mr-1 w-100" id="search-mobile" type="search" placeholder="Search encora" aria-label="Search" name="q" value="G">
+    
+</form>
+
+
+<button class="navbar-toggler px-0" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+</div>  
+
+<div class="collapse navbar-collapse fake-container" id="navbarSupportedContent">
+    <a class="navbar-brand" href="https://encora.one">
+        encora
+    </a>
+
+    <ul class="navbar-nav mr-auto">
+
+    
+    <form method="GET" action="https://encora.one/search" class="form-inline d-none d-md-flex">
+        
+        
+        <label class="sr-only" for="search">Search</label>
+        <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search" name="q" value="G">
+    </form>
+
+    </ul>  
+
+    <ul class="navbar-nav">
+
+    
+    
+    <li class="nav-item dropdown">
+        <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button" aria-expanded="false" title="Browse...">
+            <span><i class="fas fa-book-open"></i></span>
+            <span class="d-md-none pl-1">Browse... <i class="fas fa-caret-down"></i></span>
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right" role="menu">
+            <a href="https://encora.one/shows" class="dropdown-item">
+                Shows
+            </a>
+
+            <a href="https://encora.one/performers" class="dropdown-item">
+                Performers
+            </a>
+
+                    </div>  
+    </li>
+
+    
+        <li class="nav-item">
+        <a href="https://encora.one/login" class="nav-link">
+            Register or Login
+        </a>
+    </li>
+    
+    </ul>  
+
+</div>  
+
+</nav>
+
+        
+
+<div class="
+container-fluid
+">
+  <div class="card">
+    <div class="card-header">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 style="display:inline-block;">
+                Performers
+            </h2>
+        </div>
+            </div>
+</div>
+
+<div class="card-body p-2">
+<form method="GET" action="https://encora.one/performers" accept-charset="UTF-8">
+  <div class="form-row align-items-center">
+    <div class="col">
+      
+      <label class="sr-only" for="search">Search</label>
+      <input type="text" class="form-control" id="search_performers.index" placeholder="Search" name="q" value="G" minlength=1 style="width:100%;">
+    </div>
+    <button type="submit" class="btn btn-primary d-none d-sm-block">Search</button>
+  </div>
+</form>
+</div>  
+ 
+
+<div class="card-body">
+    <div class="flex-container row alphabet">
+	<div>
+		<a href="https://encora.one/performers">
+			All
+		</a>
+	</div>
+
+	    <div>
+    		<a href="https://encora.one/performers?search=A">
+			A
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=B">
+			B
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=C">
+			C
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=D">
+			D
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=E">
+			E
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=F">
+			F
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=G">
+			G
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=H">
+			H
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=I">
+			I
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=J">
+			J
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=K">
+			K
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=L">
+			L
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=M">
+			M
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=N">
+			N
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=O">
+			O
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=P">
+			P
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Q">
+			Q
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=R">
+			R
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=S">
+			S
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=T">
+			T
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=U">
+			U
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=V">
+			V
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=W">
+			W
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=X">
+			X
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Y">
+			Y
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Z">
+			Z
+		</a>
+	</div>
+	</div>
+    <hr>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td class="text-center"># of Performances</td>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/g-lyons">
+                        G Lyons
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/g-eugene-moose">
+                        G Eugene Moose
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gab-pangilinan">
+                        Gab Pangilinan
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-beans">
+                        Gabby Beans
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-beredo">
+                        Gabby Beredo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    7
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-garza">
+                        Gabby Garza
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-gutierrez">
+                        Gabby Gutierrez
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    16
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-padilla">
+                        Gabby Padilla
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabby-wong">
+                        Gabby Wong
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabe-adamo">
+                        Gabe Adamo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabe-fries">
+                        Gabe Fries
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabe-gibbs">
+                        Gabe Gibbs
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    18
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabe-kinsman">
+                        Gabe Kinsman
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabe-violett">
+                        Gabe Violett
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    16
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabi-campo">
+                        Gabi Campo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    43
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabi-doz">
+                        Gabi Doz
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabi-epstein">
+                        Gabi Epstein
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabi-porto">
+                        Gabi Porto
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabi-stapula">
+                        Gabi Stapula
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabin-jenny">
+                        Gabin Jenny
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabor-bot">
+                        Gabor Bot
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabor-bot-1">
+                        Gábor Bot
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabor-attila-farkas">
+                        Gábor Attila Farkas
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabor-morea">
+                        Gabor Morea
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-amoroso">
+                        Gabriel Amoroso
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-antonacci">
+                        Gabriel Antonacci
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-barre">
+                        Gabriel Barre
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-sidney-brown">
+                        Gabriel Sidney Brown
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    20
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-burrafato">
+                        Gabriel Burrafato
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    5
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-byrne">
+                        Gabriel Byrne
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-croom">
+                        Gabriel Croom
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-cytron">
+                        Gabriel Cytron
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-de-cervantes">
+                        Gabriel de Cervantes
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-dell">
+                        Gabriel Dell
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-douglas">
+                        Gabriel Douglas
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-ebert">
+                        Gabriel Ebert
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    82
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-elizabeth-elizabeth">
+                        Gabriel Elizabeth Elizabeth
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-falcao">
+                        Gabriel Falcão
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-gonzalez">
+                        Gabriel Gonzalez
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-hinchcliffe">
+                        Gabriel Hinchcliffe
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-hyman">
+                        Gabriel Hyman
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    6
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-kakon">
+                        Gabriel Kakon
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-kalomas">
+                        Gabriel Kalomas
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-leone">
+                        Gabriel Leone
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    21
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-long">
+                        Gabriel Long
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-mokake">
+                        Gabriel Mokake
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    25
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-navarro">
+                        Gabriel Navarro
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-paul">
+                        Gabriel Paul
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-payne">
+                        Gabriel Payne
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    6
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-reyes">
+                        Gabriel Reyes
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-rush">
+                        Gabriel Rush
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-sloyer">
+                        Gabriel Sloyer
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-p-tiongson">
+                        Gabriel P Tiongson
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-titan">
+                        Gabriel Titan
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-vick">
+                        Gabriel Vick
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    36
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-violett">
+                        Gabriel Violett
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-werb">
+                        Gabriel Werb
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    20
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-williams">
+                        Gabriel Williams
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriel-alvarado">
+                        Gabriel Alvarado
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriela-albo">
+                        Gabriela Albo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    6
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriela-carillo">
+                        Gabriela Carillo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriela-garcia">
+                        Gabriela García
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    39
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriela-ryffel">
+                        Gabriela Ryffel
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriele-appolloni">
+                        Gabriele Appolloni
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriele-ramm">
+                        Gabriele Ramm
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    31
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriele-rosel">
+                        Gabriele Rösel
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriele-stoppel-bachmann">
+                        Gabriele Stoppel-Bachmann
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-cocca">
+                        Gabriella Cocca
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-gonzalez">
+                        Gabriella Gonzalez
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-harris">
+                        Gabriella Harris
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-marzetta">
+                        Gabriella Marzetta
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    13
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-pizzolo">
+                        Gabriella Pizzolo
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    43
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-rodriguez">
+                        Gabriella Rodriguez
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-santinelli">
+                        Gabriella Santinelli
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-stylianou-burns">
+                        Gabriella Stylianou-Burns
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-uhl">
+                        Gabriella Uhl
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    11
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-williams">
+                        Gabriella Williams
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    41
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabriella-zanchi">
+                        Gabriella Zanchi
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-adner">
+                        Gabrielle Adner
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-boyajian">
+                        Gabrielle Boyajian
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-brooks">
+                        Gabrielle Brooks
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    15
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-carrubba">
+                        Gabrielle Carrubba
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    57
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-cocca">
+                        Gabrielle Cocca
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-dagger">
+                        Gabrielle Dagger
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-dominique">
+                        Gabrielle Dominique
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-elisabeth">
+                        Gabrielle Elisabeth
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    8
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-garza">
+                        Gabrielle Garza
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    53
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-greene">
+                        Gabrielle Greene
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-hamilton">
+                        Gabrielle Hamilton
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    8
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-jones">
+                        Gabrielle Jones
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-lewis-dodson">
+                        Gabrielle Lewis-Dodson
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-mcclinton">
+                        Gabrielle McClinton
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    31
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-mirabella">
+                        Gabrielle Mirabella
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-nicholson">
+                        Gabrielle Nicholson
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-parker">
+                        Gabrielle Parker
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    3
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-ramm">
+                        Gabrielle Ramm
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    4
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-reid">
+                        Gabrielle Reid
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    2
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-ruiz">
+                        Gabrielle Ruiz
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    24
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gabrielle-visser">
+                        Gabrielle Visser
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                    <tr>
+                <td>
+                    <a href="https://encora.one/performers/gaby-bradburry">
+                        Gaby Bradburry
+                    </a>
+                                    </td>
+                <td class="text-center">
+                    1
+                </td>
+            </tr>
+                </tbody>
+    </table>
+
+            <ul class="pagination">
+        
+                    <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
+        
+        
+                    
+            
+            
+                                                                        <li class="page-item active"><span class="page-link">1</span></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=2">2</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=3">3</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=4">4</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=5">5</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=6">6</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=7">7</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=8">8</a></li>
+                                                                    
+                            <li class="page-item disabled"><span class="page-link">...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=11">11</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=12">12</a></li>
+                                                        
+        
+                    <li class="page-item"><a class="page-link" href="https://encora.one/performers?search=G&amp;page=2" rel="next">&raquo;</a></li>
+            </ul>
+
+    
+    <hr>
+    <div class="flex-container row alphabet">
+	<div>
+		<a href="https://encora.one/performers">
+			All
+		</a>
+	</div>
+
+	    <div>
+    		<a href="https://encora.one/performers?search=A">
+			A
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=B">
+			B
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=C">
+			C
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=D">
+			D
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=E">
+			E
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=F">
+			F
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=G">
+			G
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=H">
+			H
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=I">
+			I
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=J">
+			J
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=K">
+			K
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=L">
+			L
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=M">
+			M
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=N">
+			N
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=O">
+			O
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=P">
+			P
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Q">
+			Q
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=R">
+			R
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=S">
+			S
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=T">
+			T
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=U">
+			U
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=V">
+			V
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=W">
+			W
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=X">
+			X
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Y">
+			Y
+		</a>
+	</div>
+	    <div>
+    		<a href="https://encora.one/performers?search=Z">
+			Z
+		</a>
+	</div>
+	</div>
+</div>  <!-- .card-body -->
+  </div>  
+</div>  
+
+
+    </div>
+
+    <div id="footer" class="row mt-3">
+        <div class="container">
+            <div class="col align-self-center">
+                <h6 class="text-center">
+                    <i class="far fa-copyright"></i>
+                    2020 Encora and of the respective rightsholders
+                </h6>
+                <div class="text-center">
+                    <a href="https://encora.one/contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="removeEntry" tabindex="-1" role="dialog" aria-labelledby="removeEntryLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="removeEntryLabel">Are you sure you want to do that?</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>You're about to delete a record. This action is irreversible. Are you <em>sure</em> you want to
+                        do that?</p>
+                </div>
+                <div class="modal-footer">
+                    <form method="POST" id="confirm-delete-entry">
+                        <input type="hidden" name="_token" value="SMHeDyV4yjFVFN4oHUsYTcaWKXP46HVYxBDx0mX0">
+                        <input type="hidden" name="_method" value="DELETE">                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha256-Daf8GuI2eLKHJlOWLRR/zRy9Clqcj4TUSumbxYH9kGI=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#removeEntry').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var link = button.data('link'); // Extract info from data-* attributes
+            var modal = $(this);
+            modal.find('#confirm-delete-entry').attr('action', link);
+        });
+
+        $('body').on('hidden.bs.modal', '.modal', function () {
+            $(this).removeData('bs.modal');
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"][title]').tooltip()
+        })
+
+        var textAreas = document.getElementsByTagName('textarea');
+        Array.prototype.forEach.call(textAreas, function(elem) {
+            elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+        });
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-106387485-1', 'auto');
+        ga('send', 'pageview');
+        
+    </script>
+
+    
+    
+</body>
+
+</html>
